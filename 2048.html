@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>网页版2048</title>
+<link rel="stylesheet" type="text/css" href="index.css" />
+
+<style type="text/CSS">
+header{
+    display:block;
+    margin:0 auto;
+    width:500px;
+    text-align:center;
+}
+
+header h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px;
+    font-weight:bold;
+}
+
+header #newgamebutton{
+    width:100px;
+    padding:10px;
+    background:#8f7a66;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    border-radius:10px;
+    text-decoration:none;
+}
+
+header #newgamebutton:hover{
+    background:#9f8b77;
+}
+
+header p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    margin:20px auto;
+}
+
+
+</style>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+    <header>
+        <h1>2048</h1>
+        <a href="javascript:newgame();" id="newgamebutton">New Game</a>
+        <p>
+            score:<span id="score">0</span>
+        </p>
+    </header>
+</body>
+</html>
